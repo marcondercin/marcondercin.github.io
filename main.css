@@ -1,0 +1,73 @@
+body {
+	background-color: hsl(0, 0%, 95%);
+	font-family: monospace;
+	margin: 20px;
+}
+
+h1 {font-size: 2.5em;}
+h2 {font-size: 1.8em;}
+h3 {font-size: 1.5em;}
+h4 {font-size: 1.2em;}
+h5 {font-size: 0.9em; font-style: italic;}
+
+.header-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: hsl(0, 0%, 80%);
+	margin: -20px -20px 10px -20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.header-text {
+	align-self: center;
+	padding-left: 2%;
+}
+
+.contact-info {
+	align-self: center;
+	padding-right: 3%;
+}
+
+#content {
+	line-height: 1.5;
+	/*width: 70%;*/
+	display: flex;
+	justify-content: space-between;
+}
+
+.left-border {
+	border-left: 2px solid;
+}
+
+.about-me {
+	border-left-color: darkgreen;
+	padding-left: 20px;
+	width: 60%;
+}
+
+.projects {
+	border-left-color: darkred;
+	padding-left: 20px;
+	width: 30%;
+}
+
+.interests {
+	border-left-color: red;
+	padding-left: 20px;
+}
+
+.contact-info li {margin: 10px 0px;}
+ul.no-bullets {list-style-type: none;}
+
+.heading-link {
+	color: black;
+	transition: 0.3s;
+}
+
+.heading-link:link {text-decoration: none;}
+.heading-link:visited {color: black;}
+.heading-link:hover {color: maroon; cursor: pointer;}
+.contact-info strong {font-size: 1.2em;}
+
