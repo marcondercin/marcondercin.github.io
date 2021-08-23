@@ -86,9 +86,20 @@ nav a:hover {
   transition-duration: 0.3s;
 }
 
+.project-tile:hover {
+  width: 310px;
+  height: 310px;
+}
+
+.project-tile:hover > img {
+  width: 310px;
+  height: 310px;
+}
+
 .project-tile img {
   width: 300px;
   height: 300px;
+  transition-duration: 0.3s;
 }
 
 .project-tile p {
