@@ -58,6 +58,7 @@ nav a:hover {
 
 #projects {
   background-color: black;
+  text-align: center;
 }
 
 #projects h2 {
@@ -108,6 +109,29 @@ nav a:hover {
 .project-tile:hover > img {
   width: 310px;
   height: 310px;
+}
+
+#more-projects {
+  width: 100px;
+  height: 30px;
+  margin: 40px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  font-style: italic;
+  transition-duration: 0.2s;
+}
+
+#more-projects:hover {
+  background: rgb(12,26,62);
+  background: linear-gradient(90deg, rgba(12,26,62,1) 0%, rgba(10,6,66,1) 50%, rgba(12,26,62,1) 100%);
+  cursor: pointer;
+}
+
+#more-projects:active {
+  background: darkblue;
 }
 
 #contact {
