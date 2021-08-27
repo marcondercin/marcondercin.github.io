@@ -38,3 +38,15 @@ h3 {
 #contact > p {
     margin-left: 20px;
 }
+
+.project-heading {
+    max-width: 300px;
+}
+
+.project-heading:hover {
+    cursor: pointer;
+}
+
+.project-content {
+    margin-left: 50px;
+}
