@@ -4,21 +4,19 @@ let project1 = document.getElementById('project-1');
 let project2 = document.getElementById('project-2');
 
 
-project1.addEventListener('click', () => {
-    displayProject('#project-1-content');
-});
+project1.addEventListener('click', () => {displayProject(arrow1, '#project-1-content')});
+project2.addEventListener('click', () => {displayProject(arrow2, '#project-2-content')});
 
-
-function displayProject(id) {
-    if (arrow1.textContent === '>') {
-        arrow1.textContent = '∨';
-        arrow1.style.fontWeight = 'bold';
+function displayProject(arrow, id) {
+    if (arrow.textContent === '>') {
+        arrow.textContent = '∨';
+        arrow.style.fontWeight = 'bold';
         let children = document.querySelector(id);
         children.style.display = 'block';
     }
     else {
-        arrow1.textContent = '>';
-        arrow1.style.fontWeight = 'normal';
+        arrow.textContent = '>';
+        arrow.style.fontWeight = 'normal';
         let children = document.querySelector(id);
         children.style.display = 'none';
     }
