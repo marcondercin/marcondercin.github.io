@@ -1,3 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
 body {
     font-size: 16px;
+    font-family: 'Open Sans';
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+#navbar {
+    margin-left: auto;
+}
+
+#nav-link > a {
+    padding: 0 5px;
+    text-decoration: none;
+    color: darkblue;
+}
+
+h2 {
+    margin-left: 10px;
+}
+
+h3 {
+    margin-left: 20px;
+}
+
+#about > p {
+    margin-left: 10px;
+}
+
+#contact > p {
+    margin-left: 20px;
 }
