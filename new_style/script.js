@@ -24,3 +24,4 @@ function displayProject(arrow, id) {
         document.querySelector(id).style.display = 'none';
     }
 };
+
