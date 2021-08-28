@@ -37,8 +37,12 @@ h3 {
     margin-left: 10px;
 }
 
+#skills > p {
+    margin-left: 10px;
+}
+
 #contact > p {
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .project-heading {
@@ -54,7 +58,13 @@ h3 {
     max-width: 700px;
 }
 
-#icon-list > img {
+#skills-icons > img {
+    width: auto;
+    height: 64px;
+    margin: 0 10px;
+}
+
+#contact-icons > a > img {
     width: auto;
     height: 64px;
     margin: 0 10px;
