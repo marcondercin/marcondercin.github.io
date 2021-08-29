@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#header-title {
+    font-weight: normal;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.download-link {
+    display: block;
+    color: aquamarine;
+    font-size: 16px;
+    text-align: center;
+}
+
+.download-link:visited {
+    color: aquamarine;
+}
+
+video {
+    display: block;
+    margin: 30px auto 0 auto;
+    width: 400px;
+}
+
+h2 {
+    color: white;
+    font-weight: 300;
+    font-size: 42px;
+    text-align: center;
+}
+
+#description {
+    text-align: center;
+    color: grey;
+    font-size: 21px;
+}
+
+img {
+    display: block;
+}
+
+#camp-image {
+    width: 90%;
+    margin: auto;
+}
+
+#phone-image {
+    margin: 30px auto 0 auto;
+
+}
+
+#copyright {
+    color: grey;
+    text-align: right;
+}
