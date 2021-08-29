@@ -4,57 +4,78 @@
 <head>
 	<meta charset="utf-8">
 	<title>Marc Ondercin</title>
-	<link rel="stylesheet" href="resources/css/style.css">
+	<link rel="stylesheet" href="./style.css">
 </head>
 	
 <body>
-	<nav id="navbar">
-		<p>Marc Ondercin</p>
-		<div class="nav-link">
-			<a href="#welcome-section">Welcome</a>
-			<a href="#projects">Projects</a>
-			<a href="#contact">Contact</a>
-		</div>
-	</nav>
+    <header>
+        <h1>Marc Ondercin</h1>
+        <nav id="navbar">
+            <div id="nav-link">
+                <a href="#about">About Me</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
 
-	<section id="welcome-section">
-		<h1>Hi, I'm Marc</h1>
-	</section>
+    <section id='about'>
+        <h2>About Me</h2>
+        <p>Hi! I'm Marc, an aspiring developer with a background in earth sciences and data analytics.</p>
+        <p>I'm currently learning full stack engineering, with a focus on React/Redux.</p>
+        <p>In my free time, I like to ride bikes and fix things.</p><br>
+        <p>I've compiled a couple of projects here, but if you want to see more just check out my GitHub.</p>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <h3 id="project-1" class="project-heading"><strong id='arrow1' style="font-weight: normal">></strong> Camp Outlook</h3>
+        <div id='project-1-content' class='project-content'style="display: none;">
+            <p>A non-profit volunteer run organization that gives youth facing barriers the opportunity to experience the Ontario wilderness through multi-day canoe trips.</p>
+            <a href="https://www.campoutlook.ca" target="_blank">campoutlook.ca</a>
+        </div>
+        <h3 id="project-2" class="project-heading"><strong id='arrow2' style="font-weight: normal">></strong> Random Quote Generator</h3>
+        <div id="project-2-content" class="project-content" style="display: none;">
+            <p>Fetches random inspirational quotes and a link to tweet them. An example of bootstrap and jQuery.</p>
+            <a>link to github</a>
+        </div>
+        <h3 id="project-3" class="project-heading"><strong id='arrow3' style="font-weight: normal">></strong> Excursion</h3>
+        <div id="project-3-content" class="project-content" style="display: none;">
+            <p>A sample responsive website.</p>
+            <a href="../../Projects/excursion/index.html">Excursion</a>
+        </div>
+        <h3 id="project-4" class="project-heading"><strong id='arrow4' style="font-weight: normal">></strong> Find Your Hat</h3>
+        <div id="project-4-content" class="project-content" style="display: none;">
+            <p>A basic node.js game that takes direction input from the user to navigate a maze-like map.</p>
+            <a href="https://github.com/marcondercin/Find-Your-Hat" target="_blank">GitHub link</a>
+        </div>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <p>
+            <span id="skills-icons">
+                <img src="./resources/images/icons/icons8-html-file-64.png" alt="html">
+                <img src="./resources/images/icons/icons8-css-128.png" alt="css">
+                <img src="./resources/images/icons/icons8-javascript-100.png" alt="javascript">
+                <img src="./resources/images/icons/icons8-react-64.png" alt="react">
+                <img src="./resources/images/icons/icons8-redux-100.png" alt="redux">
+                <img src="./resources/images/icons/icons8-python-100.png" alt="python">
+                <img src="./resources/images/icons/icons8-postgresql-100.png" alt="postgre">
+                <img src="./resources/images/icons/icons8-git-100.png" alt="git">
+                <img src="./resources/images/icons/icons8-microsoft-excel-100.png" alt="excel">
+                <img src="./resources/images/icons/icons8-microsoft-access-100.png" alt="access">
+                <img src="./resources/images/icons/icons8-jquery-100.png" alt="jquery">
+            </span>
+        </p>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p id="contact-icons">
+            <a href="https://www.linkedin.com/in/marcondercin/" target="_blank"><img src="./resources/images/icons/icons8-linkedin-100.png" alt="linkedin"></a>
+            <a href="https://www.github.com/marcondercin" target="_blank"><img src="./resources/images/icons/icons8-github-100.png" alt="github"></a>
+            <a href="mailto:marcondercin@gmail.com"><img src="./resources/images/icons/icons8-mail-96.png" alt="email"></a>
+        </p>
+    </section>
 
-	<section id="projects">
-		<h2>Here are some of my projects</h2>
-		<div id='project-strip-1' class="project-container">
-			<a href="https://www.campoutlook.ca" target='_blank' class="project-tile">
-				<img src="resources/images/camp-outlook.png"/>
-				<p>Camp Outlook</p>
-			</a>
-			<a href="https://codepen.io/marcondercin/pen/zYwQVBy" target='_blank' class="project-tile">
-				<img src="resources/images/random-quote-generator.png" />
-				<p>Random Quotes</p>
-			</a>
-			<a href="" class="project-tile"></a>
-			<a href="" class="project-tile"></a>
-		</div>
-		<div id="project-strip-2" class="project-container">
-			<a href="" class="project-tile"></a>
-			<a href="" class="project-tile"></a>
-			<a href="" class="project-tile"></a>
-			<a href="" class="project-tile"></a>
-		</div>
-		<button id='more-projects'>See more</button>
-	</section>
-
-	<section id="contact">
-		<h2>Get in touch</h2>
-		<div id="contact-container">
-			<a id="profile-link" href="https://github.com/marcondercin" target="_blank">GitHub</a>
-			<a href="mailto: marcondercin@gmail.com">Email</a>
-			<a href="https://codepen.io/marcondercin" target="_blank">CodePen</a>
-		</div>
-	</section>
-
-	<script src="script.js"></script>
+    <script src="./script.js"></script>
 </body>
-
-
-</html>
