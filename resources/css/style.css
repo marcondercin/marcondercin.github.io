@@ -24,6 +24,13 @@ header {
     color: darkblue;
 }
 
+@media screen and (max-width: 650px) {
+  #nav-link {
+    text-align: right;
+    width: 100px;
+  }
+}
+
 h2 {
     margin-left: 10px;
     margin-top: 40px;
