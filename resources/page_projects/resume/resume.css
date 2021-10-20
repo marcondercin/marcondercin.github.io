@@ -1,10 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 
 body {
-  font-size: 16px;
+  font-size: 11px;
   font-family: 'Open Sans';
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 40px;
+  padding: 0 20px;
+}
+
+h1 {font-size: 1.8em;}
+
+h2 {
+  font-size: 1.5em;
+  padding-left: 10px;
+}
+
+h3 {
+  font-size: 1.3em;
+  padding-left: 15px;
+}
+
+h4 {
+  font-size: 1em;
+  font-weight: normal;
+  padding-left: 16px;
+}
+
+.year {
+  font-style: italic;
+  margin-top: -15px;
 }
 
