@@ -3,12 +3,13 @@
 body {
   font-size: 11px;
   font-family: 'Open Sans';
-  max-width: 1200px;
+  max-width: 816px;
   margin: 0 auto;
   padding: 0 20px;
+  border: 1px solid black;
 }
 
-h1 {font-size: 1.8em;}
+h1 {font-size: 2.5em;}
 
 h2 {
   font-size: 1.5em;
@@ -18,6 +19,8 @@ h2 {
 h3 {
   font-size: 1.3em;
   padding-left: 15px;
+  margin-top: 20px;
+  margin-bottom: -10px;
 }
 
 h4 {
@@ -26,8 +29,40 @@ h4 {
   padding-left: 16px;
 }
 
+.heading h4 {
+  margin-top: 0;
+  padding-left: 0;
+}
+
 .year {
   font-style: italic;
   margin-top: -15px;
+}
+
+.description {
+  padding-left: 15px;
+}
+
+.heading {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: space-between; */
+}
+
+.left-block {
+  border: 2px solid black;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.right-block {
+  border: 2px solid black;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
 }
 
