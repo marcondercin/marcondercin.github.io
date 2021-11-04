@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 
+@font-face {
+  font-family: GillSans;
+  font-weight: lighter;
+  src: url("../../fonts/GillSans/Gill\ Sans\ Light.otf");
+}
+
 body {
   font-size: 11px;
   font-family: 'Open Sans';
@@ -29,40 +35,38 @@ h4 {
   padding-left: 16px;
 }
 
-.heading h4 {
-  margin-top: 0;
-  padding-left: 0;
+#heading {
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  font-size: 1.6em;
+  text-align: center;
+  font-family: GillSans;
 }
 
-.year {
-  font-style: italic;
-  margin-top: -15px;
+#content {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 10px;
 }
 
-.description {
-  padding-left: 15px;
+#contact {
+  grid-column: 1;
 }
 
-.heading {
-  display: flex;
-  /* align-items: center; */
-  /* justify-content: space-between; */
+#summary {
+  grid-column: 2;
 }
 
-.left-block {
-  border: 2px solid black;
-  height: 100px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+#education {
+  grid-column: 1;
+  border: 1px solid black;
 }
 
-.right-block {
-  border: 2px solid black;
-  height: 100px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: space-between;
+#experience {
+  grid-column: 2;
+}
+
+#volunteer {
+  grid-column: 2;
 }
 
